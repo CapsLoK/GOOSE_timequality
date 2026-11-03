@@ -24,12 +24,12 @@
 1. Откройте проводник Windows и перейдите в папку пользовательских плагинов Wireshark. Вставьте следующий путь в адресную строку:
 
    ```text
-   %APPDATA%\Wireshark\plugins
+   %APPDATA%\Wireshark\plugins\4.6\gooseqtime
    ```
 
    > Обычно это: `C:\Users\<ВашеИмя>\AppData\Roaming\Wireshark\plugins`
    >
-   > **Примечание:** если папки `plugins` нет — создайте её вручную.
+   > **Примечание:** если папки `plugins` нет — создайте её вручную, 4.6 -текущая версия wireshark, gooseqtime -произвольное имя плагина.
 
 2. Скопируйте файл `iec61850_timequality.lua` в эту директорию.
 3. Полностью закройте Wireshark и запустите его заново.
